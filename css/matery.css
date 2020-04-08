@@ -142,7 +142,7 @@ pre {
     color: #e96900;
     background-color: #f8f8f8;
     border-radius: 2px;
-}*/
+}
 
 .code_copy {
     position: absolute;
@@ -206,7 +206,7 @@ pre[class*="language-"] {
     margin: .5em 0;
 }
 
-code[class*="language-"],
+code[class*="language-"],*/
 pre[class*="language-"] {
     color: #e8eaf6;
     white-space: pre-wrap !important;
