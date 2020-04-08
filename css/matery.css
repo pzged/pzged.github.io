@@ -134,7 +134,7 @@ pre {
     box-shadow: 20px 0 #ffbd2e, 40px 0 #27c93f;
 }
 
-code {
+/*code {
     padding: 1px 5px;
     top: 13px !important;
     font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace;
@@ -142,7 +142,7 @@ code {
     color: #e96900;
     background-color: #f8f8f8;
     border-radius: 2px;
-}
+}*/
 
 .code_copy {
     position: absolute;
