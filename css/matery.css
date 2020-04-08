@@ -134,7 +134,7 @@ pre {
     box-shadow: 20px 0 #ffbd2e, 40px 0 #27c93f;
 }
 
-/*code {
+code {
     padding: 1px 5px;
     top: 13px !important;
     font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace;
@@ -206,7 +206,7 @@ pre[class*="language-"] {
     margin: .5em 0;
 }
 
-code[class*="language-"],*/
+code[class*="language-"],
 pre[class*="language-"] {
     color: #e8eaf6;
     white-space: pre-wrap !important;
