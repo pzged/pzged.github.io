@@ -4,8 +4,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="java的控制语句, hi">
-    <meta name="description" content="Java 控制语句：循环、条件判断程序设计中的控制语句主要有三种：顺序、分支和循环。控制语句包含：1、分支语句：if和switch2、循环语句：while、for、do-while(使用较少)分支语句：if和switch，分支语句是一种控制">
+    <meta name="keywords" content="一维数组, hi">
+    <meta name="description" content="· 一维数组· 一、前言· 1、组的概念· 同一种类型数据的集合。其实数组就是一个容器。运算的时候有很多数据参与运算,那么首先需要做的是什么.不是如何运算而是如何保存这些数据以便于后期的运算，那么数组就是一种用于存储数据的方式，能存数据的地">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -13,7 +13,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>java的控制语句 | hi</title>
+    <title>一维数组 | hi</title>
     <link rel="icon" type="image/jpeg" href="/medias/logo.jpg">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -218,12 +218,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1586407939449&di=ce2978d491438e5cbccba25f45e4b91d&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20200227%2Fcb2f26d0b8394a5e975af2b9269121f7.jpeg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2839469695,2390546436&fm=26&gp=0.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">java的控制语句</h1>
+                    <h1 class="description center-align post-title">一维数组</h1>
                 </div>
             </div>
         </div>
@@ -352,7 +352,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-04-08
+                    2020-04-15
                 </div>
                 
 
@@ -369,82 +369,75 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="Java-控制语句：循环、条件判断"><a href="#Java-控制语句：循环、条件判断" class="headerlink" title="Java 控制语句：循环、条件判断"></a>Java 控制语句：循环、条件判断</h2><h3 id="程序设计中的控制语句主要有三种：顺序、分支和循环。"><a href="#程序设计中的控制语句主要有三种：顺序、分支和循环。" class="headerlink" title="程序设计中的控制语句主要有三种：顺序、分支和循环。"></a>程序设计中的控制语句主要有三种：顺序、分支和循环。</h3><h5 id="控制语句包含："><a href="#控制语句包含：" class="headerlink" title="控制语句包含："></a>控制语句包含：</h5><h5 id="1、分支语句：if和switch"><a href="#1、分支语句：if和switch" class="headerlink" title="1、分支语句：if和switch"></a>1、分支语句：if和switch</h5><h5 id="2、循环语句：while、for、do-while-使用较少"><a href="#2、循环语句：while、for、do-while-使用较少" class="headerlink" title="2、循环语句：while、for、do-while(使用较少)"></a>2、循环语句：while、for、do-while(使用较少)</h5><h3 id="分支语句："><a href="#分支语句：" class="headerlink" title="分支语句："></a>分支语句：</h3><p>if和switch，分支语句是一种控制机制，使程序具有有限的判断能力，可能根据不同的输入，执行不同的操作。分支语句又称条件语句，使部分程序可根据某些表达式的值被有选择的执行。对于if、else if、else的判断语句，只会且只会执行其中的一个逻辑。<br>if 中的条件表达式计算的结果必须为boolean类型，其他类型的编译会失败</p>
-<h4 id="if语句："><a href="#if语句：" class="headerlink" title="if语句："></a>if语句：</h4><pre class=" language-oz"><code class="language-oz"><span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token comment" spellcheck="true">/*条件*/</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-    <span class="token operator">/</span><span class="token operator">/</span>条件成立时执行的代码
-<span class="token punctuation">}</span></code></pre>
-<p><img src="/2020/04/08/java%E7%9A%84%E6%8E%A7%E5%88%B6%E8%AF%AD%E5%8F%A5/53635a6b00011ebc01660184.bmp" alt></p>
-<h4 id="if…else语句："><a href="#if…else语句：" class="headerlink" title="if…else语句："></a>if…else语句：</h4><pre class=" language-oz"><code class="language-oz"><span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token comment" spellcheck="true">/*条件*/</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-    <span class="token operator">/</span><span class="token operator">/</span>条件成立时执行的代码
-<span class="token punctuation">}</span><span class="token keyword">else</span> <span class="token punctuation">{</span>
-    <span class="token operator">/</span><span class="token operator">/</span>条件不成立时执行的代码
-<span class="token punctuation">}</span></code></pre>
-<p><img src="/2020/04/08/java%E7%9A%84%E6%8E%A7%E5%88%B6%E8%AF%AD%E5%8F%A5/536369030001ee7402510205.jpg" alt></p>
-<p><img src="/2020/04/08/java%E7%9A%84%E6%8E%A7%E5%88%B6%E8%AF%AD%E5%8F%A5/Snipaste_2020-04-08_17-32-30.png" alt></p>
-<p><img src="/2020/04/08/java%E7%9A%84%E6%8E%A7%E5%88%B6%E8%AF%AD%E5%8F%A5/Snipaste_2020-04-08_17-20-48.png" alt></p>
-<h5 id="注意："><a href="#注意：" class="headerlink" title="注意："></a>注意：</h5><p>if 中的条件表达式计算的结果必须为boolean类型，其他类型的编译会失败<br>if/for/while/switch/do 等关键字与左右括号之间都必须加空格。保存格式化代码，IDE(j集成开发环境)会自动添加空格<br>在 if/else/for/while/do 语句中必须使用大括号，即使只有一行代码。</p>
-<h4 id="switch语句："><a href="#switch语句：" class="headerlink" title="switch语句："></a>switch语句：</h4><pre class=" language-oz"><code class="language-oz">switch <span class="token punctuation">(</span><span class="token comment" spellcheck="true">/*表达式*/</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-    <span class="token keyword">case</span> <span class="token comment" spellcheck="true">/*值1*/</span><span class="token punctuation">:</span>
-        <span class="token comment" spellcheck="true">/*执行代码块1*/</span>
-        break<span class="token punctuation">;</span>
-    <span class="token keyword">case</span> <span class="token comment" spellcheck="true">/*值2*/</span><span class="token punctuation">:</span>
-        <span class="token comment" spellcheck="true">/*执行代码块2*/</span>
-        break<span class="token punctuation">;</span>
-    <span class="token keyword">case</span> <span class="token comment" spellcheck="true">/*值3*/</span><span class="token punctuation">:</span>
-        <span class="token comment" spellcheck="true">/*执行代码块3*/</span>
-        break<span class="token punctuation">;</span>
-    <span class="token keyword">case</span> <span class="token comment" spellcheck="true">/*值n*/</span><span class="token punctuation">:</span>
-        <span class="token comment" spellcheck="true">/*执行代码块n*/</span>
-        break<span class="token punctuation">;</span>
-    <span class="token attr-name">default</span><span class="token punctuation">:</span>
-        <span class="token comment" spellcheck="true">/*上面的都不执行就执行这个代码块*/</span>
-<span class="token punctuation">}</span></code></pre>
-<p><img src="/2020/04/08/java%E7%9A%84%E6%8E%A7%E5%88%B6%E8%AF%AD%E5%8F%A5/Snipaste_2020-04-08_17-42-20.png" alt>)<img src="/2020/04/08/java%E7%9A%84%E6%8E%A7%E5%88%B6%E8%AF%AD%E5%8F%A5/Snipaste_2020-04-08_17-46-51.png" alt></p>
-<p>break可以跳出switch结构。</p>
-<h5 id="注意：-1"><a href="#注意：-1" class="headerlink" title="注意："></a>注意：</h5><p>1、 switch 后面小括号中表达式的值必须是<strong>整型或字符型</strong></p>
-<p>2、 case 后面的值<strong>可以是常量数值</strong>，如 1、2；也<strong>可以是一个常量表达式</strong>，如 2+2 ；但不能是变量或带有变量的表达式，如 a * 2</p>
-<p>3、 case 匹配后，执行匹配块里的程序代码，如果没有遇见 <strong>break</strong> 会继续执行下一个的 case 块的内容，直到遇到 break 语句或者 switch 语句块结束 </p>
-<p>4、break是可以省略的，但是除了最后一个default语句对应的break，其他case的break尽量别省略。最优解：所有的break都保留</p>
-<h3 id="循环语句："><a href="#循环语句：" class="headerlink" title="循环语句："></a>循环语句：</h3><p>循环语句使程序代码循环执行，有三种循环构造，while、do-while、for。do-while在执行完循环体之后测试循环条件。<br>这就意味着for和while循环可能连一次循环体都未执行，do-while将至少执行一次循环体。</p>
-<h4 id="while语句："><a href="#while语句：" class="headerlink" title="while语句："></a>while语句：</h4><p>while每次执行都会判断循环条件，尽量避免出现无限循环的情况。</p>
-<pre class=" language-oz"><code class="language-oz">while <span class="token punctuation">(</span><span class="token comment" spellcheck="true">/*判断条件*/</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-    <span class="token comment" spellcheck="true">/*循环执行的代码*/</span>
-<span class="token punctuation">}</span></code></pre>
-<p>执行过程：</p>
-<p>&lt; 1 &gt;、 判断 while 后面的条件是否成立( true / false )</p>
-<p>&lt; 2 &gt;、 当条件成立时，执行循环内的操作代码 ，然后重复执行&lt; 1 &gt;、&lt; 2 &gt;， 直到循环条件不成立为止</p>
-<p>特点：<strong>先判断，后执行</strong></p>
-<p>注意：</p>
-<p>1、退出while循环有几种方式，break、更改循环判断条件、throw</p>
-<p>2、总之 不要出现无限循环。</p>
-<p>3、while循环条件语句只能写一个表达式，而且是布尔型表达式。如果需要循环变量，必须在while之前对循环变量畸形初始化。</p>
-<h4 id="do-while语句："><a href="#do-while语句：" class="headerlink" title="do-while语句："></a>do-while语句：</h4><p><strong>do…while 循环</strong>与 while 循环语法有些类似，但执行过程差别比较大。</p>
-<pre class=" language-oz"><code class="language-oz">do <span class="token punctuation">{</span>
-    <span class="token comment" spellcheck="true">/*循环操作*/</span>
-<span class="token punctuation">}</span>while <span class="token punctuation">(</span><span class="token comment" spellcheck="true">/*判断条件*/</span><span class="token punctuation">)</span></code></pre>
-<p>执行过程：</p>
-<p>&lt;1&gt;、 先执行一遍循环操作，然后判断循环条件是否成立</p>
-<p>&lt;2&gt;、 如果条件成立，继续执行&lt; 1 &gt; 、&lt; 2 &gt;，直到循环条件不成立为止</p>
-<p>特点： <strong>先执行，后判断</strong></p>
-<p>注意：</p>
-<p>do-while循环会在判断循环体之前先执行一次</p>
-<h4 id="使用最广泛、最重要的for循环："><a href="#使用最广泛、最重要的for循环：" class="headerlink" title="使用最广泛、最重要的for循环："></a>使用最广泛、最重要的for循环：</h4><pre class=" language-oz"><code class="language-oz">for <span class="token punctuation">(</span><span class="token comment" spellcheck="true">/*循环变量初始化*/</span><span class="token punctuation">;</span><span class="token comment" spellcheck="true">/*循环条件*/</span><span class="token punctuation">;</span><span class="token comment" spellcheck="true">/*控制循环条件*/</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-    <span class="token comment" spellcheck="true">/*循环操作*/</span>
-<span class="token punctuation">}</span></code></pre>
-<p>例子：</p>
-<p><img src="/2020/04/08/java%E7%9A%84%E6%8E%A7%E5%88%B6%E8%AF%AD%E5%8F%A5/Snipaste_2020-04-08_16-50-32.png" alt></p>
-<p>执行过程：</p>
-<p>&lt;1&gt;、 执行循环变量初始化部分，设置循环的初始状态，此部分在整个循环中只执行一次</p>
-<p>&lt;2&gt;、 进行循环条件的判断，如果条件为 true ，则执行循环体内代码；如果为 false ，则直接退出循环</p>
-<p>&lt;3&gt;、 执行控制循环条件部分，改变循环变量的值，以便进行下一次条件判断</p>
-<p>&lt;4&gt;、 依次重新执行&lt; 2 &gt;、&lt; 3 &gt;、&lt; 4 &gt;，直到退出循环</p>
-<p>特点：相比 while 和 do…while 语句<strong>结构更加简洁易读</strong>  </p>
-<h5 id="注意：-2"><a href="#注意：-2" class="headerlink" title="注意："></a>注意：</h5><p>1、for循环不需要提前声明条件变量</p>
-<p>2、执行顺序：初始化变量–》循环条件是否满足–》控制循环条件语句。如此循环</p>
-<p>3、break会跳出循环，continue会继续下次执行</p>
-<p>在循环结构中，同样可以用break语句跳出当前循环体，从而中断循环。continue和break不同是跳过本次循环然后继续执行下一次。</p>
-<p><img src="/2020/04/08/java%E7%9A%84%E6%8E%A7%E5%88%B6%E8%AF%AD%E5%8F%A5/Snipaste_2020-04-08_17-20-48.png" alt></p>
-<p>​                                                                                                                                                                                            : )                                                    </p>
+                <h2 id="·-一维数组"><a href="#·-一维数组" class="headerlink" title="· 一维数组"></a>· 一维数组</h2><h3 id="·-一、前言"><a href="#·-一、前言" class="headerlink" title="· 一、前言"></a>· 一、前言</h3><h4 id="·-1、组的概念"><a href="#·-1、组的概念" class="headerlink" title="· 1、组的概念"></a>· 1、组的概念</h4><p>· 同一种类型数据的集合。其实数组就是一个容器。运算的时候有很多数据参与运算,那么首先需要做的是什么.不是如何运算而是如何保存这些数据以便于后期的运算，那么数组就是一种用于存储数据的方式，能存数据的地方我们称之为容器，容器里装的东西就是数组的元素, 数组可以装任意类型的数据，虽然可以装任意类型的数据,但是定义好的数组只能装一种元素， 也就是数组一旦定义，那么里边存储的数据类型也就确定了。</p>
+<h4 id="·-2、数组的好处"><a href="#·-2、数组的好处" class="headerlink" title="· 2、数组的好处"></a>· 2、数组的好处</h4><p>· 存数据和不存数据有什么区别吗？数组的最大好处就是能都给存储进来的元素自动进行编号. </p>
+<p>· 注意数组下标是从0开始。方便操作这些数据。</p>
+<p>· 例如 学生的编号，使用学号就可以找到对应的学生。</p>
+<h4 id="·-3、数组的格式"><a href="#·-3、数组的格式" class="headerlink" title="· 3、数组的格式"></a>· 3、数组的格式</h4><p>· 元素类型[] 数组名 = new 元素类型[元素个数或数组长度];</p>
+<p>· 示例：int[] arr = new int[5];</p>
+<p>· 实例：int [] x=new int[3] 详解</p>
+<p>· 1、声明数组变量为了使用数组必须在程序中声明数组，并指定数组的元素类型=左半部分： 先写左边明确了元素类型 是int ，容器使用数组，那么如何来标识数组？.那么用一个特殊的符号[]中括号来表示。想要使用数组是需要给数组起一个名字的,那么我们在这里给这个数组起名字为x .接着跟上等号。代码体现： int [] x </p>
+<p>· 注意：int x[] 也是一种创建数组的格式。推荐使用int [] x 的形式声明数组。</p>
+<p>· 2、创建数组=右半部分：要使用一个新的关键字.叫做new。new 用来在内存中产生一个容器实体，数据要存储是需要有空间的，存储很多数据的空间用new 操作符来开辟，new int[3]; 这个3是元素的个数。右边这部分就是在内存中定义了一个真实存在的数组，能存储3个元素。new int[3] 做了两件事情，首先使用new int[3] 创建了一个数组，然后把这个数组的引用赋值给数组变量x。int [] x=new int[3];</p>
+<p>· 3、x 是什么类型？任何一个变量都得有自己的数据类型。注意这个x 不是int 类型的 。int 代表的是容器里边元素的类型。那么x 是数组类型的。数组是一种单独的数据类型。</p>
+<p>· 数据类型分为2大派，分为基本数据类型和引用数据类型。 第二大派是引用数据类型。那么大家现在已经接触到了引用数据类型三种当中的一种。就是数组类型 [] 中括号就代表数组。</p>
+<h3 id="·-二、数组的定义"><a href="#·-二、数组的定义" class="headerlink" title="· 二、数组的定义"></a>· 二、数组的定义</h3><p>· </p>
+<p><img src="/2020/04/15/%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84/%E5%9B%BE%E7%89%871.png" alt></p>
+<p>· </p>
+<p>· 注意：给数组分配空间时，必须指定数组能够存储的元素个数来确定数组大小。创建数组之后不能修改数组的大小。可以使用length 属性获取数组的大小。遍历数组</p>
+<h3 id="·-三、数组初始化"><a href="#·-三、数组初始化" class="headerlink" title="· 三、数组初始化"></a>· 三、数组初始化</h3><p>· </p>
+<p><img src="/2020/04/15/%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84/%E5%9B%BE%E7%89%872.png" alt></p>
+<p>· </p>
+<p>· 如果数组初始化中不使用运算符new。需要注意：下列写法是错误的。</p>
+<p>· </p>
+<p><img src="/2020/04/15/%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84/%E5%9B%BE%E7%89%873.png" alt></p>
+<p>· </p>
+<p>· 此时初始化数组，必须将声明，创建，初始化都放在一条语句中个，分开会产生语法错误。</p>
+<p>· 所以只能如下写：</p>
+<p>· </p>
+<p><img src="/2020/04/15/%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84/%E5%9B%BE%E7%89%874.png" alt></p>
+<p>· </p>
+<h3 id="·-四、数组遍历"><a href="#·-四、数组遍历" class="headerlink" title="· 四、数组遍历"></a>· 四、数组遍历</h3><p>· </p>
+<p><img src="/2020/04/15/%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84/%E5%9B%BE%E7%89%875.png" alt></p>
+<p>· </p>
+<p>· 数组中有一个属性可以获取到数组中元素的个数,也就是数组的长度. 数组名.length</p>
+<p>· </p>
+<p><img src="/2020/04/15/%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84/%E5%9B%BE%E7%89%876.png" alt></p>
+<p>· </p>
+<h3 id="·-五、数组的常见异常"><a href="#·-五、数组的常见异常" class="headerlink" title="· 五、数组的常见异常"></a>· 五、数组的常见异常</h3><h4 id="·-1、数组角标越界异常："><a href="#·-1、数组角标越界异常：" class="headerlink" title="· 1、数组角标越界异常："></a>· 1、数组角标越界异常：</h4><p>· 注意：数组的角标从0开始。</p>
+<p>· </p>
+<p><img src="/2020/04/15/%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84/%E5%9B%BE%E7%89%877.png" alt></p>
+<p>· </p>
+<h4 id="·-2、空指针异常"><a href="#·-2、空指针异常" class="headerlink" title="· 2、空指针异常:"></a>· 2、空指针异常:</h4><p>· </p>
+<p><img src="/2020/04/15/%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84/%E5%9B%BE%E7%89%878.png" alt></p>
+<p>· </p>
+<p>· 数组: 什么时候使用数组:当元素较多时为了方便操作这些数组,会先进行来临时存储，所使用的容器就是数组。</p>
+<p>· 特点: 数组长度是固定的。</p>
+<h3 id="·-六、数组的内存分析"><a href="#·-六、数组的内存分析" class="headerlink" title="· 六、数组的内存分析"></a>· 六、数组的内存分析</h3><p>· </p>
+<p><img src="/2020/04/15/%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84/%E5%9B%BE%E7%89%879.png" alt></p>
+<p>· </p>
+<p>· </p>
+<p><img src="/2020/04/15/%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84/%E5%9B%BE%E7%89%8710.png" alt></p>
+<p>· </p>
+<h3 id="·-七、数组的常见操作"><a href="#·-七、数组的常见操作" class="headerlink" title="· 七、数组的常见操作"></a>· 七、数组的常见操作</h3><h4 id="·-1-一个数组取出最大值"><a href="#·-1-一个数组取出最大值" class="headerlink" title="· 1.一个数组取出最大值"></a>· 1.一个数组取出最大值</h4><p>· </p>
+<p><img src="/2020/04/15/%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84/%E5%9B%BE%E7%89%8711.png" alt></p>
+<p>· </p>
+<h4 id="·-2-直接排序-选择排序"><a href="#·-2-直接排序-选择排序" class="headerlink" title="· 2.直接排序 (选择排序)"></a>· 2.直接排序 (选择排序)</h4><p>· </p>
+<p><img src="/2020/04/15/%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84/%E5%9B%BE%E7%89%8712.png" alt></p>
+<p>· </p>
+<h4 id="·-3-冒泡排序"><a href="#·-3-冒泡排序" class="headerlink" title="· 3.冒泡排序"></a>· 3.冒泡排序</h4><p>· </p>
+<p><img src="/2020/04/15/%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84/%E5%9B%BE%E7%89%8713.png" alt></p>
+<p>· </p>
+<h4 id="·-4-折半查找-二分法"><a href="#·-4-折半查找-二分法" class="headerlink" title="· 4.折半查找 (二分法)"></a>· 4.折半查找 (二分法)</h4><p>· </p>
+<p><img src="/2020/04/15/%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84/%E5%9B%BE%E7%89%8714.png" alt></p>
+<p>· </p>
+<h4 id="·-5-数组翻转"><a href="#·-5-数组翻转" class="headerlink" title="· 5 .数组翻转"></a>· 5 .数组翻转</h4><p>· </p>
+<p><img src="/2020/04/15/%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84/%E5%9B%BE%E7%89%8715.png" alt></p>
+<p>· </p>
+<p>· </p>
+<h3 id="·-八、数组的扩容"><a href="#·-八、数组的扩容" class="headerlink" title="· 八、数组的扩容"></a>· 八、数组的扩容</h3><p>· System.arrayCopy(拷贝源数组名称,拷贝源数组下标,拷贝目标数组名称,拷贝目标数组下标);</p>
+<p><img src="/2020/04/15/%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84/%E5%9B%BE%E7%89%8716.png" alt></p>
+<p>· </p>
 
             </div>
             <hr/>
@@ -470,7 +463,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://pzged.github.io/2020/04/08/java%E7%9A%84%E6%8E%A7%E5%88%B6%E8%AF%AD%E5%8F%A5/">https://pzged.github.io/2020/04/08/java%E7%9A%84%E6%8E%A7%E5%88%B6%E8%AF%AD%E5%8F%A5/</a>
+                    <a href="https://pzged.github.io/2020/04/15/%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84/">https://pzged.github.io/2020/04/15/%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -809,9 +802,10 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
                 <a href="/2020/04/15/%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84/">
                     <div class="card-image">
@@ -828,9 +822,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-04-15
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-04-15
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -839,6 +833,7 @@
                         </span>
                     </div>
                 </div>
+
                 
             </div>
         </div>
@@ -846,7 +841,7 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
                 <a href="/2020/04/08/java%E7%9A%84%E6%8E%A7%E5%88%B6%E8%AF%AD%E5%8F%A5/">
@@ -875,7 +870,6 @@
                         </span>
                     </div>
                 </div>
-
                 
             </div>
         </div>
